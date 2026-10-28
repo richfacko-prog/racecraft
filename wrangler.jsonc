@@ -1,0 +1,9 @@
+// Cloudflare Workers config: serves the built game (dist/) as a static site
+// at https://racecraft.<your-subdomain>.workers.dev
+{
+  "name": "racecraft",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
